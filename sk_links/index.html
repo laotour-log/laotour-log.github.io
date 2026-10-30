@@ -74,11 +74,12 @@
   }
   .link-btn--row {
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.75rem;
     padding: 0.75rem 1.25rem;
     text-align: center;
   }
+  .link-btn--row .link-name { flex: 1; }
   .link-btn:hover { background: var(--btn-bg-hover); }
   .link-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 
